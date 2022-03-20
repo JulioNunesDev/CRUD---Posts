@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,400;1,100&family=Roboto:ital,wght@0,400;0,500;0,900;1,100&family=Saira:wght@200;400;600;700&display=swap');
+
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AddPosts{
+width: 250px;
+height: 250px;
+background-color: #fafafa;
+margin-bottom: 10px;
+padding: 10px;
+border-radius: 4px;
+box-shadow: 1px 2px 6px rgba(0,0,0,0.4);
+}
+
+.AddPosts input{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 5px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.AddPosts div {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.AddPosts div button {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Fira Sans";
+    font-weight: bold;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.AddPosts div button:hover{
+box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.5);
+}
+
+
+.Posts{
+width: auto;
+display: flex;
+flex-wrap: wrap;
+height: auto;
+background-color: #fafafa;
+border-radius: 8px;
+
+}
+
+.post-main{
+    display: flex;
+    width: auto;
+    height: 100%;
+  
+}
+.post-criados{
+    display: flex;
+    width: auto;
+    padding: 10px;
+}
+
+.post-criados-div{
+    padding: 10px;
+    background-color: rgb(231, 230, 230);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    width:150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-criados-div div{
+    margin-top: 10px;
+}
+
+.post-criados-div div button{
+    transition: 0.3s ease;
+    font-family: 'Fira Sans';
+    cursor: pointer;
+    padding: 2px 5px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 2px 8px rgb(0, 0, 0,0.5);
+}
+.post-criados-div div button:hover{
+    box-shadow: 1px 1px 5px rgb(0, 0, 0,0.9);
+}
+
+.post-criados-div h3{
+text-align: center;
+font-family: 'Fira Sans';
+margin-bottom: 15px;
+}
+.post-criados-div p{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Fira Sans';
+    background-color: #ccc;
+    width: 100%;
+}
+
+ .img{
+   
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0,0.4);
+    
+    
+}
+
+.img img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    background-position: center;
+}
